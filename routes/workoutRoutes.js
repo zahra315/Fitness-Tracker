@@ -5,6 +5,14 @@ module.exports = (app) => {
     Workout.find({})
       .then((workoutDB) => {
         // console.log(workoutDB);
+
+        workoutDB.forEach((workout) => {
+          var total = 0;
+          workout.exercises.forEach((event) => {
+            total += event.duration;
+          });
+          workout.totalDuration = total;
+        });
         res.json(workoutDB);
       })
       .catch((error) => {
