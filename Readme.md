@@ -4,7 +4,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
 
-![Demo](Heroku Deploy)
+![Workout Tracker](Heroku Deploy)
 
 ## Contents
 
@@ -24,6 +24,8 @@ Clone the repo to your local machine an ensure inquirer is installed.
 ## Usage:
 
 The user must enter valid responses depending on the type of questions asked and will not let them continue until the correct response is given.
+
+![](Demo/Fitness%20Chart.gif)
 
 ## License:
 
