@@ -4,7 +4,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
 
-![Workout Tracker](Heroku Deploy)
+[Workout Tracker (Heroku App)](https://mighty-headland-24698.herokuapp.com/)
 
 ## Contents
 
