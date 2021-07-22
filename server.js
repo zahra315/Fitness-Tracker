@@ -10,10 +10,8 @@ app.use(express.static("public"));
 
 connectDB();
 
-// require("./routes/app")(app);
-// require("./routes/workoutRoutes")(app);
-app.use(require("./routes/app"));
-app.use(require("./routes/workoutRoutes"));
+require("./routes/app")(app);
+require("./routes/workoutRoutes")(app);
 
 const PORT = process.env.PORT || 3001;
 
